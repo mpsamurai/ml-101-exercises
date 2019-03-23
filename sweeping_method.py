@@ -22,7 +22,7 @@ class SimultaneousEquation:
 
 if __name__=='__main__':
     args = sys.argv
-    x = np.random.rand(3,4)
+    x = np.random.randint(1, 10, (8,9))  # 1~20までの値で?x?行列
     # x = args[1] 
     simultaneous_equation = SimultaneousEquation(x)
     x = simultaneous_equation.sweeping_method() 
