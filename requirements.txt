@@ -30,6 +30,7 @@ pandocfilters==1.4.2
 parso==0.3.4
 pexpect==4.6.0
 pickleshare==0.7.5
+Pillow==6.0.0
 prometheus-client==0.6.0
 prompt-toolkit==2.0.9
 ptyprocess==0.6.0
@@ -47,6 +48,8 @@ six==1.12.0
 sklearn==0.0
 terminado==0.8.1
 testpath==0.4.2
+torch==1.1.0
+torchvision==0.3.0
 tornado==6.0.1
 traitlets==4.3.2
 wcwidth==0.1.7
